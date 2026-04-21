@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps - Página Informativa</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0f172a;
+            color: #e2e8f0;
+        }
+
+        header {
+            background: #1e293b;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #38bdf8;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #020617;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background: #38bdf8;
+            color: black;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: linear-gradient(to right, #1e3a8a, #0ea5e9);
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+
+        footer {
+            background: #020617;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #38bdf8;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background: #0ea5e9;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>TAREA DE DEVOPS</h1>
+    <p>Integración entre Desarrollo y Operaciones</p>
+</header>
+
+<nav>
+    <a href="#quees">¿Qué es?</a>
+    <a href="#beneficios">Beneficios</a>
+    <a href="#herramientas">Herramientas</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section class="hero">
+    <h2>Bienvenido al mundo DevOps</h2>
+    <p>Automatización, integración continua y despliegue rápido</p>
+    <a href="#quees" class="btn">Aprender más</a>
+</section>
+
+<div class="container">
+
+    <div id="quees" class="card">
+        <h2>¿Qué es DevOps?</h2>
+        <p>DevOps es una metodología que une el desarrollo de software (Dev) y las operaciones de TI (Ops), con el objetivo de acortar el ciclo de vida del desarrollo y entregar software de alta calidad continuamente.</p>
+    </div>
+
+    <div id="beneficios" class="card">
+        <h2>Beneficios</h2>
+        <ul>
+            <li>Entrega continua</li>
+            <li>Mayor velocidad de desarrollo</li>
+            <li>Mejor colaboración entre equipos</li>
+            <li>Automatización de procesos</li>
+            <li>Menos errores en producción</li>
+        </ul>
+    </div>
+
+    <div id="herramientas" class="card">
+        <h2>Herramientas DevOps</h2>
+        <ul>
+            <li>Docker</li>
+            <li>Kubernetes</li>
+            <li>Jenkins</li>
+            <li>Git</li>
+            <li>Ansible</li>
+        </ul>
+    </div>
+
+    <div id="contacto" class="card">
+        <h2>Contacto</h2>
+        <p>¿Quieres aprender más sobre DevOps?</p>
+        <form>
+            <input type="text" placeholder="Nombre" required><br><br>
+            <input type="email" placeholder="Correo" required><br><br>
+            <textarea placeholder="Mensaje" required></textarea><br><br>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </div>
+
+</div>
+
+<footer>
+    <p>ella no te ama  </p>
+</footer>
+
+</body>
+</html>
