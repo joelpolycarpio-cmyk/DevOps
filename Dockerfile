@@ -4,4 +4,4 @@ COPY . /usr/share/nginx/html
 
 EXPOSE 80
 
-docker build -t NOMBRES-SITIO-WEB .
+docker build -t Practica .
